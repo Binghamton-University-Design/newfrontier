@@ -1,1 +1,57 @@
 /*stylesheet*/
+body {
+	margin: 0;
+	background: white;
+	color: black;
+	font-family: 'Courier New', serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 20pt;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+p {
+	font-size: 16pt;
+}
+
+#wrapper {
+	margin: 0;
+	max-width: auto;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+}
+
+#title {
+	background-image: url("../images/liftoff.gif");
+	background-repeat: no-repeat;
+	display: block;
+	align-items: center;
+	padding: 25.1em;
+	justify-content: center;
+}
+
+#title li {
+	text-align: center;
+	position: relative;
+}
+
+#title a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#title a:hover {
+	background-color: white;
+	color: black;
+}
+
+
